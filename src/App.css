@@ -1,0 +1,52 @@
+.container-box{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 100vh;
+}
+
+.cardBox{
+  margin: 20px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.hashtags{
+  margin: 0px 6px;
+}
+.reactions{
+  margin: 15px 0 0 0;
+}
+.postUserName{
+  font-size: 24px;
+  font-weight: 500;
+  color: darkgoldenrod;
+}
+.create-post{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  border: 2px solid black;
+  padding: 40px;
+}
+.postbutton{
+  width: 20%;
+}
+.postbuttoncontainer{
+  text-align: center;
+}
+.postheading{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15px;
+  color: rgb(92, 86, 154);
+}
+.footer{
+  margin-top: 100px;
+}

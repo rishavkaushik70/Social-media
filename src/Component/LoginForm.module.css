@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 660px;
+  width: 100%;
+  margin-top: 20px;
+}
+.headingform{
+  color: rgb(92, 86, 154);
+  font-size: 32px;
+}
+.inputContainerForm{
+  width: 80%;
+  text-align: center;
+}
+.mainContainer{
+  height: 400px;
+  width: 600px;
+  border: 2px solid rgb(164, 164, 164);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.inputContainerForm input{
+  margin-top: 10px;
+}
