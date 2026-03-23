@@ -4,7 +4,7 @@ import { createContext, useReducer } from "react";
 
 export const PostList = createContext({
   postList: [],
-  fetching: false,
+  fetching: true,
   addPost: () => {},
   deletePost: () => {},
 });
@@ -24,7 +24,7 @@ const postListReducer = (currPostList, action) => {
 };
 const PostListProvider = ({ children }) => {
   const [postList, dispatchPostList] = useReducer(postListReducer, []);
-  const [fetching, setFetching] = useState(false);
+  const [fetching, setFetching] = useState(true);
 
   const addPost = (post) => {
     dispatchPostList({

@@ -6,7 +6,6 @@ const Post = ({ post }) => {
   return (
     <div className="card cardBox" style={{ width: "30rem" }}>
       <div className="card-body">
-        <p className="postUserName">{post.userName}</p>
         <h5 className="card-title">
           {post.title}{" "}
           <span
