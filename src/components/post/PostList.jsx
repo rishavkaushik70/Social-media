@@ -4,6 +4,7 @@ import { useLoaderData } from "react-router-dom";
 
 const PostList = () => {
   const postList = useLoaderData();
+  console.log(postList);
 
   return (
     <>
@@ -23,7 +24,7 @@ export const postLoader = () => {
   return fetch("https://dummyjson.com/posts")
     .then((res) => res.json())
     .then((data) => {
-      return data.post;
+      return data.posts;
     });
 };
 
